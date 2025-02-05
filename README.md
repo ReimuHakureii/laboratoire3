@@ -4,7 +4,7 @@
 1. Assurez-vous d'avoir la version la plus récente de [Python](https://www.python.org/ftp/python/3.13.2/python-3.13.2-amd64.exe "Install Python Here") installé.
 
 2. Exécutez le script avec la commande suivante :
-```sh
+```shell
 python jeu1.py
 ```
 
