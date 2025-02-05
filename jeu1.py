@@ -2,6 +2,12 @@ import random
 
 # Fonction permettant de poser une question à l'utilisateur et de s'assurer qu'il choisit une option valide
 def prendre_decision(question, options):
+    """
+    Pose une question à l'utilisateur et s'assure qu'il choisit une option valide.
+    :param question: Question posée à l'utilisateur.
+    :param options: Liste des réponses valides.
+    :return: Réponse validée de l'utilisateur.
+    """
     decision = input(question).lower()
     while decision not in options:
         print("Action non reconnue. Veuillez choisir parmi les options suivantes: ", ", ".join(options))
@@ -10,6 +16,13 @@ def prendre_decision(question, options):
 
 # Fonction simulant un défi avec une probabilité de réussite donnée
 def lancer_defi(proba_reussite, succes_msg, echec_msg):
+    """
+    Simule un défi basé sur un tirage aléatoire.
+    :param proba_reussite: Probabilité de réussite sur une échelle de 1 à 10.
+    :param succes_msg: Message affiché en cas de succès.
+    :param echec_msg: Message affiché en cas d'échec.
+    :return: True si le défi est réussi, False sinon.
+    """
     if random.randint(1, 10) <= proba_reussite:  # Génère un nombre aléatoire entre 1 et 10
         print(succes_msg)  # Succès du défi
         return True
@@ -19,6 +32,9 @@ def lancer_defi(proba_reussite, succes_msg, echec_msg):
 
 # Fonction principale gérant l'aventure textuelle
 def aventure():
+    """
+    Gère le déroulement de l'aventure textuelle interactive.
+    """
     print("========================================")
     print("Bienvenue dans cette aventure textuelle !")
     print("========================================\n")
