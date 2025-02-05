@@ -1,14 +1,15 @@
 # Jeu d'aventure textuel
 ## Inspiré des nombreux jeux texte de MS DOS
 ### Comment jouer à ce jeu?
-1. Assurez-vous d'avoir la version la plus récente de [Python](https://www.python.org/ftp/python/3.13.2/python-3.13.2-amd64.exe "Install Python Here") installé.
+1. **Assurez-vous d'avoir la version la plus récente de [Python](https://www.python.org/ftp/python/3.13.2/python-3.13.2-amd64.exe "Install Python Here") installé.**
 
-2. Exécutez le script avec la commande suivante :
+2. **Exécutez le script avec la commande suivante** :
 ```shell
 python jeu1.py
 ```
 
-3. Entrées :
+3. **Entrées** :
 Le joueur fait des choix en tapant des commandes spécifiques dans la console (`gauche`, `droite`, `traverser`, etc.).
-4. Sorties :
+
+4. **Sorties** :
 Des descriptions textuelles de l'aventure, ainsi que la fin de l'histoire (avec ou sans trésor).
